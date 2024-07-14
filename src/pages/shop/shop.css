@@ -1,10 +1,19 @@
-.shopTitle {
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.shopTile {
   margin-top: 100px;
   text-align: center;
   font-size: 40px;
 }
 .products {
   width: 100%;
+  margin-left: 0px;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -13,8 +22,8 @@
 
 .product {
   border-radius: 15px;
-  width: 300px;
-  height: 350px;
+  width: 200px;
+  height: 300px;
   margin: 100px;
   display: flex;
   flex-direction: column;
@@ -24,6 +33,7 @@
 
 .product img {
   width: 400px;
+  height: 400px;
 }
 
 .product .description {
@@ -35,7 +45,7 @@
   cursor: pointer;
 }
 
-.addToCartBttn {
+.addToCart {
   background-color: transparent;
   border: 2px solid rgb(19, 19, 19);
   min-width: 100px;
@@ -46,7 +56,7 @@
   border-radius: 15px;
 }
 
-.addToCartBttn:hover {
+.addToCart:hover {
   background-color: rgb(19, 19, 19);
   color: white;
   cursor: pointer;

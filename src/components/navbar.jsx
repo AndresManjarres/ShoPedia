@@ -6,9 +6,10 @@ import './navbar.css'
 export const Navbar = () => {
   return (
     <div className='navbar'>
+      <p>Shopedia.com</p>
       <div className='links'>
         <Link to='/'>Shop</Link>
-        <Link to='/cart'><ShoppingCart size={40} /></Link>
+        <Link to='/cart'><ShoppingCart size={35} /></Link>
       </div>
     </div>
   )

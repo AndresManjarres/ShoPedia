@@ -32,14 +32,14 @@ export const PRODUCTS = [
   },
   {
     id: 5,
-    productName: "iphone 14 pro",
-    price: 1199.99,
-    productImage: product5,
-  },
-  {
-    id: 6,
     productName: "Zapatillas Nike",
     price: 299.99,
     productImage: product6,
+  },
+  {
+    id: 6,
+    productName: "iphone 14 pro",
+    price: 1199.99,
+    productImage: product5,
   },
 ];
