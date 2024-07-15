@@ -8,19 +8,19 @@ import product6 from "./assets/zapatillas.jpg";
 export const PRODUCTS = [
   {
     id: 1,
-    productName: "Cicla",
+    productName: "Mountain Bike",
     price: 1199.99,
     productImage: product1,
   },
   {
     id: 2,
-    productName: "Teclado gamer",
+    productName: "Gamer Keyboard",
     price: 220.55,
     productImage: product2,
   },
   {
     id: 3,
-    productName: "Silla gamer",
+    productName: "Gamer Chair",
     price: 250.33,
     productImage: product3,
   },
@@ -32,7 +32,7 @@ export const PRODUCTS = [
   },
   {
     id: 5,
-    productName: "Zapatillas Nike",
+    productName: "Nike Air Max 270",
     price: 299.99,
     productImage: product6,
   },
