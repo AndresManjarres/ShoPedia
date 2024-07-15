@@ -1,5 +1,5 @@
 import product1 from "./assets/cicla.jpg";
-import product2 from "./assets/imac.jpg";
+import product2 from "./assets/teclado.png";
 import product3 from "./assets/silla.png";
 import product4 from "./assets/nintendo.jpg";
 import product5 from "./assets/iphone.jpg";
@@ -14,8 +14,8 @@ export const PRODUCTS = [
   },
   {
     id: 2,
-    productName: "Imac Pro",
-    price: 3200.55,
+    productName: "Teclado gamer",
+    price: 220.55,
     productImage: product2,
   },
   {

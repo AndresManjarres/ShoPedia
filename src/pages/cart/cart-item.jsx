@@ -16,12 +16,12 @@ export const CartItem = (props) => {
           <b>{productName}</b>
         </p>
         <p>
-          <b>Precio:</b> ${price}
+          <b>Price:</b> ${price}
         </p>
         <div className='countHandler'>
-          <button onClick={() => removeFromCart(id)} >-</button>
+          <button className='rest' onClick={() => removeFromCart(id)} >-</button>
           <input type="text" value={cartItems[id]} onChange={(e) => updateCartItemCount(Number(e.target.value), id)} />
-          <button onClick={() => addToCart(id)}>+</button>
+          <button className="sum" onClick={() => addToCart(id)}>+</button>
         </div>
       </div>
 
