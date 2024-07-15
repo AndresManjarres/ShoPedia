@@ -1,8 +1,17 @@
-# React + Vite
+# Shopedia.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto FrontEnd de un Ecommerce con funcionalidad de carrito de compras. 
 
-Currently, two official plugins are available:
+# Conceptos aplicados
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React Router
+- React Hooks (UseState, UseContext)
+- Contextos
+
+-Pantalla de inicio
+
+![inicio (2)](https://github.com/user-attachments/assets/4114d123-fb9d-48c8-adb7-eda56cca856b)
+
+-Pantalla de carrito
+
+![carrito2](https://github.com/user-attachments/assets/ff57fe9d-adcc-4363-ba28-d7aa07988d84)
